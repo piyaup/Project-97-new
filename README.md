@@ -1,12 +1,18 @@
 ﻿# Project-97-new
+ 
 import random
+
 print("Number Guessing Game")
+
 number = random.randit(1,9)
+
 chances = 0
+
 print("Guess a number (between 1 and 9):")
 
 
 while chances <5:
+
     guess = int(input("Enter your guess:-"))
 
     if guess == number:
